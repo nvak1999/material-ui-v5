@@ -21,7 +21,7 @@ function DetailPage() {
         {book.title}
       </Typography>
       <Box marginTop={2} sx={{ display: "flex" }}>
-        <img src="images/a-Dolls-house.jpg" alt="" />
+        <img style={{ height: 500 }} src={book.imageLink} alt="" />
       </Box>
     </Container>
   );
